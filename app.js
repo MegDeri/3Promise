@@ -26,7 +26,7 @@ async function animateRight(el, amt) {
 
 animateRight(btn, 100).catch(err => {
 	console.log("All done!");
-	animateRight(btn, -100)
+	animateRight(btn, -100);
 });
 
 // moveX(btn, 100, 1000)
